@@ -4,7 +4,7 @@ import json
 from googletrans import Translator
 import threading
 
-model = Model("/home/phonby/Python Projects/Subtitles_realTime/vosk-model-small-en-us-0.15")
+model = Model("full_path/vosk-model-small-en-us-0.15")
 rec = KaldiRecognizer(model, 16000)
 
 translator = Translator()
